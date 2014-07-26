@@ -16,7 +16,7 @@ To use this script, the UCI HAR Dataset file should be downloaded and unzipped i
 Using of local files was intended to improve script reliability facing web connection failures.
  (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
-Behavior:
+Behaviour:
 ========
 When you call run_analysis() function, it reads data from the specified input directory, creates a tidy  dataset, saves it to file **"average_X.txt"** in current directory and returns the dataset.
 
