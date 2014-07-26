@@ -1,5 +1,7 @@
- README.md: (explains how the script work and the files it uses.)
-==========
+ README.md: 
+ =========
+(explains how the script work and the files it uses.)
+
 Script description:
  The run_analysis() script is used to read the  Human Activity Recognition Using Smartphones Dataset -
  UCI HAR Dataset - and create a second, independent tidy data set where:
