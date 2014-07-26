@@ -12,13 +12,13 @@ UCI HAR Dataset - and create a second, independent tidy data set where:
 
 Pre-conditions:
 =============
- To use this script the UCI HAR Dataset file should be downloaded and unzip it in the local filesystem.
- Using of local files was intended to improve script reliability facing web connection failures.
+To use this script, the UCI HAR Dataset file should be downloaded and unzipped in the local filesystem.
+Using of local files was intended to improve script reliability facing web connection failures.
  (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
 Behavior:
 ========
- When you call run_analysis() function, it will read data from the specified input directory, create a tidy  dataset, save it to file "average_X.txt" in current directory and return it.
+ When you call run_analysis() function, it will read data from the specified input directory, create a tidy  dataset, save it to file **bold**"average_X.txt" in current directory and return it.
 
 Script Parameter:
 ===============
