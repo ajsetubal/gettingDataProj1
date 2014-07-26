@@ -1,8 +1,9 @@
  README.md: 
- =========
+==========
 (explains how the script work and the files it uses.)
 
 Script description:
+=================
  The run_analysis() script is used to read the  Human Activity Recognition Using Smartphones Dataset -
  UCI HAR Dataset - and create a second, independent tidy data set where:
 
@@ -11,17 +12,21 @@ Script description:
         * all in a single File.
 
 Pre-conditions:
+=============
  To use this script the UCI HAR Dataset file should be downloaded and unzip it in the local filesystem.
  Using of local files was intended to improve script reliability facing web connection failures.
  (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
 Behavior:
+========
  When you call run_analysis() function, it will read data from the specified input directory, create a tidy  dataset, save it to file "average_X.txt" in current directory and return it.
 
 Script Parameter:
+===============
   inDir: is a character vector of length 1 containing the  root directory structured as published in UCI HAR Dataset. The default is the same name used in exported zip file.
 
 Input Dataset:
+============
 The input dataset includes the following files:
  (original zip file rows cardinality, in comments below, intended to clarify files relationships)
 
@@ -64,6 +69,7 @@ The input dataset includes the following files:
 
 
 Output File:
+===========
  The output file is a tidy data set with the following structure:
  (full description)
    X_1.csv	               :array for subject 1 w/ 80 features found
@@ -73,16 +79,20 @@ Output File:
                                         AND 1 activity label.
  
 Other Files:
+===========
  CodeBook.md (manually edited): describes the variables, the data, and transformations/work performed.
  README.md   (manually edited): explains how the script work and the files it uses.
 
 Script Processing:
+==============
   Step 1:
+--------
    Merges the training and the test sets to create one data set.
 	row bind of train and test of {column bind of subject, activity and features}
    (total 10299 observations)
 
   Step 2:
+--------
    Extracts only the measurements on the mean(46) and standard deviation for each measurement(33), i.e., only measure types variables found in primary dataset. 
    (total + Suject + Activity label + 71 variables)
 
@@ -94,14 +104,15 @@ Script Processing:
    .*std()      :Standard deviation
 
   Step 3:
+--------
   Uses "factor" for descriptive activity names to name the activities in the dataset atribute activity factor to dataset.
 
   Step 4:
+--------
 	Appropriately labels the column dataset with descriptive variable names transforming the primary dataset column names by "gsub"-replacing sequences of strings "-"and "()" with a sigle"_"
  
-
-
   Step 5:
+--------
   Creates a second, independent tidy dataset with the average of each variable for each activity and each subject.
 
 
