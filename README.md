@@ -4,12 +4,11 @@
 
 Script description:
 =================
- The run_analysis() script is used to read the  Human Activity Recognition Using Smartphones Dataset -
- UCI HAR Dataset - and create a second, independent tidy data set where:
-
- 	* Columns are the average and standard deviation measure types variables found in primary dataset;
-        * Rows for every activity performed by each subject w/ average of each variable;
-        * all in a single File.
+The run_analysis() script is used to read the  Human Activity Recognition Using Smartphones Dataset -
+UCI HAR Dataset - and create a second, independent tidy data set where:
+* Columns are the average and standard deviation measure types variables found in primary dataset;
+* Rows for every activity performed by each subject w/ average of each variable;
+* all in a single File.
 
 Pre-conditions:
 =============
