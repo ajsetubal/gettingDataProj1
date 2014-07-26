@@ -8,7 +8,6 @@ Cousera Course - Johns Hopkins University
 * July/2014
 * Version 1.0
 * Antonio Joaquim
------------------------------------------------------------------
 Input Dataset Observations:
 ========================
 The input data represent data collected  by:
@@ -155,87 +154,86 @@ Tidy Dataset Variables:
 ==========================
 The 'average_X.txt' file contains the new tidy Dataset with the following column variables variables:
 
-* Subject			:contains an integer form 1 to 30 that is the subject who performed the activity.
-* Activity		:contains a string that identify the performed activity: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING.
-* tBodyAcc_mean_X		:average of column 1 tBodyAcc-mean()-X
-* tBodyAcc_mean_Y		:average of column 2 tBodyAcc-mean()-Y
-* tBodyAcc_mean_Z		:average of column 3 tBodyAcc-mean()-Z
-* tBodyAcc_std_X		:average of column 4 tBodyAcc-std()-X
-* tBodyAcc_std_Y		:average of column 5 tBodyAcc-std()-Y
-* tBodyAcc_std_Z		:average of column 6 tBodyAcc-std()-Z
-* tGravityAcc_mean_X	:average of column 41 tGravityAcc-mean()-X
-* tGravityAcc_mean_Y	:average of column 42 tGravityAcc-mean()-Y
-* tGravityAcc_mean_Z	:average of column 43 tGravityAcc-mean()-Z
-* tGravityAcc_std_X	:average of column 44 tGravityAcc-std()-X
-* tGravityAcc_std_Y	:average of column 45 tGravityAcc-std()-Y
-* tGravityAcc_std_Z	:average of column 46 tGravityAcc-std()-Z
-* tBodyAccJerk_mean_X	:average of column 81 tBodyAccJerk-mean()-X
-* tBodyAccJerk_mean_Y	:average of column 82 tBodyAccJerk-mean()-Y
-* tBodyAccJerk_mean_Z	:average of column 83 tBodyAccJerk-mean()-Z
-* tBodyAccJerk_std_X	:average of column 84 tBodyAccJerk-std()-X
-* tBodyAccJerk_std_Y	:average of column 85 tBodyAccJerk-std()-Y
-* tBodyAccJerk_std_Z	:average of column 86 tBodyAccJerk-std()-Z
-* tBodyGyro_mean_X	:average of column 121 tBodyGyro-mean()-X
-* tBodyGyro_mean_Y	:average of column 122 tBodyGyro-mean()-Y
-* tBodyGyro_mean_Z	:average of column 123 tBodyGyro-mean()-Z
-* tBodyGyro_std_X		:average of column 124 tBodyGyro-std()-X
-* tBodyGyro_std_Y		:average of column 125 tBodyGyro-std()-Y
-* tBodyGyro_std_Z		:average of column 126 tBodyGyro-std()-Z
-* tBodyGyroJerk_mean_X	:average of column 161 tBodyGyroJerk-mean()-X
-* tBodyGyroJerk_mean_Y	:average of column 162 tBodyGyroJerk-mean()-Y
-* tBodyGyroJerk_mean_Z	:average of column 163 tBodyGyroJerk-mean()-Z
-* tBodyGyroJerk_std_X	:average of column 164 tBodyGyroJerk-std()-X
-* tBodyGyroJerk_std_Y	:average of column 165 tBodyGyroJerk-std()-Y
-* tBodyGyroJerk_std_Z	:average of column 166 tBodyGyroJerk-std()-Z
-* tBodyAccMag_mean_	:average of column 201 tBodyAccMag-mean()
-* tBodyAccMag_std_	:average of column 202 tBodyAccMag-std()
-* tGravityAccMag_mean_	:average of column 214 tGravityAccMag-mean()
-* tGravityAccMag_std_	:average of column 215 tGravityAccMag-std()
-* tBodyAccJerkMag_mean_	:average of column 227 tBodyAccJerkMag-mean()
-* tBodyAccJerkMag_std_	:average of column 228 tBodyAccJerkMag-std()
-* tBodyGyroMag_mean_	:average of column 240 tBodyGyroMag-mean()
-* tBodyGyroMag_std_	:average of column 241 tBodyGyroMag-std()
-* tBodyGyroJerkMag_mean_	:average of column 253 tBodyGyroJerkMag-mean()
-* tBodyGyroJerkMag_std_	:average of column 254 tBodyGyroJerkMag-std()
-* fBodyAcc_mean_X		:average of column 266 fBodyAcc-mean()-X
-* fBodyAcc_mean_Y		:average of column 267 fBodyAcc-mean()-Y
-* fBodyAcc_mean_Z		:average of column 268 fBodyAcc-mean()-Z
-* fBodyAcc_std_X		:average of column 269 fBodyAcc-std()-X
-* fBodyAcc_std_Y		:average of column 270 fBodyAcc-std()-Y
-* fBodyAcc_std_Z		:average of column 271 fBodyAcc-std()-Z
-* fBodyAcc_meanFreq_X	:average of column 294 fBodyAcc-meanFreq()-X
-* fBodyAcc_meanFreq_Y	:average of column 295 fBodyAcc-meanFreq()-Y
-* fBodyAcc_meanFreq_Z	:average of column 296 fBodyAcc-meanFreq()-Z
-* fBodyAccJerk_mean_X	:average of column 345 fBodyAccJerk-mean()-X
-* fBodyAccJerk_mean_Y	:average of column 346 fBodyAccJerk-mean()-Y
-* fBodyAccJerk_mean_Z	:average of column 347 fBodyAccJerk-mean()-Z
-* fBodyAccJerk_std_X	:average of column 348 fBodyAccJerk-std()-X
-* fBodyAccJerk_std_Y	:average of column 349 fBodyAccJerk-std()-Y
-* fBodyAccJerk_std_Z	:average of column 350 fBodyAccJerk-std()-Z
-* fBodyAccJerk_meanFreq_X	:average of column 373 fBodyAccJerk-meanFreq()-X
-* fBodyAccJerk_meanFreq_Y	:average of column 374 fBodyAccJerk-meanFreq()-Y
-* fBodyAccJerk_meanFreq_Z	:average of column 375 fBodyAccJerk-meanFreq()-Z
-* fBodyGyro_mean_X	:average of column 424 fBodyGyro-mean()-X
-* fBodyGyro_mean_Y	:average of column 425 fBodyGyro-mean()-Y
-* fBodyGyro_mean_Z	:average of column 426 fBodyGyro-mean()-Z
-* fBodyGyro_std_X		:average of column 427 fBodyGyro-std()-X
-* fBodyGyro_std_Y		:average of column 428 fBodyGyro-std()-Y
-* fBodyGyro_std_Z		:average of column 429 fBodyGyro-std()-Z
-* fBodyGyro_meanFreq_X	:average of column 452 fBodyGyro-meanFreq()-X
-* fBodyGyro_meanFreq_Y	:average of column 453 fBodyGyro-meanFreq()-Y
-* fBodyGyro_meanFreq_Z	:average of column 454 fBodyGyro-meanFreq()-Z
-* fBodyAccMag_mean_	:average of column 503 fBodyAccMag-mean()
-* fBodyAccMag_std_	:average of column 504 fBodyAccMag-std()
-* fBodyAccMag_meanFreq_	:average of column 513 fBodyAccMag-meanFreq()
-* fBodyBodyAccJerkMag_mean_	:average of column 516 fBodyBodyAccJerkMag-mean()
-* fBodyBodyAccJerkMag_std_	:average of column 517 fBodyBodyAccJerkMag-std()
-* fBodyBodyAccJerkMag_meanFreq_	:average of column 526 fBodyBodyAccJerkMag-meanFreq()
-* fBodyBodyGyroMag_mean_		:average of column 529 fBodyBodyGyroMag-mean()
-* fBodyBodyGyroMag_std_		:average of column 530 fBodyBodyGyroMag-std()
-* fBodyBodyGyroMag_meanFreq_	:average of column 539 fBodyBodyGyroMag-meanFreq()
-* fBodyBodyGyroJerkMag_mean_	:average of column 542 fBodyBodyGyroJerkMag-mean()
-* fBodyBodyGyroJerkMag_std_	:average of column 543 fBodyBodyGyroJerkMag-std()
-* fBodyBodyGyroJerkMag_meanFreq_	:average of column 552 fBodyBodyGyroJerkMag-meanFreq()
-* 
-* 
-* 
+         Subject			:contains an integer form 1 to 30 that is the subject who performed the activity.
+         Activity		:contains a string that identify the performed activity: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING.
+         tBodyAcc_mean_X		:average of column 1 tBodyAcc-mean()-X
+         tBodyAcc_mean_Y		:average of column 2 tBodyAcc-mean()-Y
+         tBodyAcc_mean_Z		:average of column 3 tBodyAcc-mean()-Z
+         tBodyAcc_std_X		:average of column 4 tBodyAcc-std()-X
+         tBodyAcc_std_Y		:average of column 5 tBodyAcc-std()-Y
+         tBodyAcc_std_Z		:average of column 6 tBodyAcc-std()-Z
+         tGravityAcc_mean_X	:average of column 41 tGravityAcc-mean()-X
+         tGravityAcc_mean_Y	:average of column 42 tGravityAcc-mean()-Y
+         tGravityAcc_mean_Z	:average of column 43 tGravityAcc-mean()-Z
+         tGravityAcc_std_X	:average of column 44 tGravityAcc-std()-X
+         tGravityAcc_std_Y	:average of column 45 tGravityAcc-std()-Y
+         tGravityAcc_std_Z	:average of column 46 tGravityAcc-std()-Z
+         tBodyAccJerk_mean_X	:average of column 81 tBodyAccJerk-mean()-X
+         tBodyAccJerk_mean_Y	:average of column 82 tBodyAccJerk-mean()-Y
+         tBodyAccJerk_mean_Z	:average of column 83 tBodyAccJerk-mean()-Z
+         tBodyAccJerk_std_X	:average of column 84 tBodyAccJerk-std()-X
+         tBodyAccJerk_std_Y	:average of column 85 tBodyAccJerk-std()-Y
+         tBodyAccJerk_std_Z	:average of column 86 tBodyAccJerk-std()-Z
+         tBodyGyro_mean_X	:average of column 121 tBodyGyro-mean()-X
+         tBodyGyro_mean_Y	:average of column 122 tBodyGyro-mean()-Y
+         tBodyGyro_mean_Z	:average of column 123 tBodyGyro-mean()-Z
+         tBodyGyro_std_X		:average of column 124 tBodyGyro-std()-X
+         tBodyGyro_std_Y		:average of column 125 tBodyGyro-std()-Y
+         tBodyGyro_std_Z		:average of column 126 tBodyGyro-std()-Z
+         tBodyGyroJerk_mean_X	:average of column 161 tBodyGyroJerk-mean()-X
+         tBodyGyroJerk_mean_Y	:average of column 162 tBodyGyroJerk-mean()-Y
+         tBodyGyroJerk_mean_Z	:average of column 163 tBodyGyroJerk-mean()-Z
+         tBodyGyroJerk_std_X	:average of column 164 tBodyGyroJerk-std()-X
+         tBodyGyroJerk_std_Y	:average of column 165 tBodyGyroJerk-std()-Y
+         tBodyGyroJerk_std_Z	:average of column 166 tBodyGyroJerk-std()-Z
+         tBodyAccMag_mean_	:average of column 201 tBodyAccMag-mean()
+         tBodyAccMag_std_	:average of column 202 tBodyAccMag-std()
+         tGravityAccMag_mean_	:average of column 214 tGravityAccMag-mean()
+         tGravityAccMag_std_	:average of column 215 tGravityAccMag-std()
+         tBodyAccJerkMag_mean_	:average of column 227 tBodyAccJerkMag-mean()
+         tBodyAccJerkMag_std_	:average of column 228 tBodyAccJerkMag-std()
+         tBodyGyroMag_mean_	:average of column 240 tBodyGyroMag-mean()
+         tBodyGyroMag_std_	:average of column 241 tBodyGyroMag-std()
+         tBodyGyroJerkMag_mean_	:average of column 253 tBodyGyroJerkMag-mean()
+         tBodyGyroJerkMag_std_	:average of column 254 tBodyGyroJerkMag-std()
+         fBodyAcc_mean_X		:average of column 266 fBodyAcc-mean()-X
+         fBodyAcc_mean_Y		:average of column 267 fBodyAcc-mean()-Y
+         fBodyAcc_mean_Z		:average of column 268 fBodyAcc-mean()-Z
+         fBodyAcc_std_X		:average of column 269 fBodyAcc-std()-X
+         fBodyAcc_std_Y		:average of column 270 fBodyAcc-std()-Y
+         fBodyAcc_std_Z		:average of column 271 fBodyAcc-std()-Z
+         fBodyAcc_meanFreq_X	:average of column 294 fBodyAcc-meanFreq()-X
+         fBodyAcc_meanFreq_Y	:average of column 295 fBodyAcc-meanFreq()-Y
+         fBodyAcc_meanFreq_Z	:average of column 296 fBodyAcc-meanFreq()-Z
+         fBodyAccJerk_mean_X	:average of column 345 fBodyAccJerk-mean()-X
+         fBodyAccJerk_mean_Y	:average of column 346 fBodyAccJerk-mean()-Y
+         fBodyAccJerk_mean_Z	:average of column 347 fBodyAccJerk-mean()-Z
+         fBodyAccJerk_std_X	:average of column 348 fBodyAccJerk-std()-X
+         fBodyAccJerk_std_Y	:average of column 349 fBodyAccJerk-std()-Y
+         fBodyAccJerk_std_Z	:average of column 350 fBodyAccJerk-std()-Z
+         fBodyAccJerk_meanFreq_X	:average of column 373 fBodyAccJerk-meanFreq()-X
+         fBodyAccJerk_meanFreq_Y	:average of column 374 fBodyAccJerk-meanFreq()-Y
+         fBodyAccJerk_meanFreq_Z	:average of column 375 fBodyAccJerk-meanFreq()-Z
+         fBodyGyro_mean_X	:average of column 424 fBodyGyro-mean()-X
+         fBodyGyro_mean_Y	:average of column 425 fBodyGyro-mean()-Y
+         fBodyGyro_mean_Z	:average of column 426 fBodyGyro-mean()-Z
+         fBodyGyro_std_X		:average of column 427 fBodyGyro-std()-X
+         fBodyGyro_std_Y		:average of column 428 fBodyGyro-std()-Y
+         fBodyGyro_std_Z		:average of column 429 fBodyGyro-std()-Z
+         fBodyGyro_meanFreq_X	:average of column 452 fBodyGyro-meanFreq()-X
+         fBodyGyro_meanFreq_Y	:average of column 453 fBodyGyro-meanFreq()-Y
+         fBodyGyro_meanFreq_Z	:average of column 454 fBodyGyro-meanFreq()-Z
+         fBodyAccMag_mean_	:average of column 503 fBodyAccMag-mean()
+         fBodyAccMag_std_	:average of column 504 fBodyAccMag-std()
+         fBodyAccMag_meanFreq_	:average of column 513 fBodyAccMag-meanFreq()
+         fBodyBodyAccJerkMag_mean_	:average of column 516 fBodyBodyAccJerkMag-mean()
+         fBodyBodyAccJerkMag_std_	:average of column 517 fBodyBodyAccJerkMag-std()
+         fBodyBodyAccJerkMag_meanFreq_	:average of column 526 fBodyBodyAccJerkMag-meanFreq()
+         fBodyBodyGyroMag_mean_		:average of column 529 fBodyBodyGyroMag-mean()
+         fBodyBodyGyroMag_std_		:average of column 530 fBodyBodyGyroMag-std()
+         fBodyBodyGyroMag_meanFreq_	:average of column 539 fBodyBodyGyroMag-meanFreq()
+         fBodyBodyGyroJerkMag_mean_	:average of column 542 fBodyBodyGyroJerkMag-mean()
+         fBodyBodyGyroJerkMag_std_	:average of column 543 fBodyBodyGyroJerkMag-std()
+         fBodyBodyGyroJerkMag_meanFreq_	:average of column 552 fBodyBodyGyroJerkMag-meanFreq()
+         
+         
