@@ -1,6 +1,6 @@
  README.md: 
 ==========
-(explains how the script work and the files it uses.)
+(explains how the script works and the files it uses.)
 
 Script description:
 =================
@@ -18,11 +18,11 @@ Using of local files was intended to improve script reliability facing web conne
 
 Behavior:
 ========
-When you call run_analysis() function, it will read data from the specified input directory, create a tidy  dataset, save it to file **"average_X.txt"** in current directory and return it.
+When you call run_analysis() function, it reads data from the specified input directory, creates a tidy  dataset, saves it to file **"average_X.txt"** in current directory and returns the dataset.
 
 Script Parameter:
 ===============
-* inDir: is a character vector of length 1 containing the  root directory structured as published in UCI HAR Dataset. The default is the same name used in exported zip file.
+* inDir: is a character vector of length 1 containing the  root directory structured as published in UCI HAR Dataset. The default name is the same resulting from zip expansion in current directory.
 
 Input Dataset:
 ============
@@ -30,6 +30,7 @@ The input dataset includes the following files:
 (original zip file rows cardinality, in comments below, intended to clarify files relationships)
 
 **./UCI HAR Dataset/**
+**(x)** files required to produce output dataset
 *  .**x**   /activity_labels.txt          :List of 6 activity# and labels.
 *  .**x**   /features.txt                 :List of 561 feature(col#) and labels.
 *  .     /features_info.txt            :Information about the calculations.
@@ -64,18 +65,12 @@ The input dataset includes the following files:
 *  .           /total_acc_x_train.txt:Triaxial accelerat from accelerometer
 *  .             /total_acc_y_train.txt:(total acceleration 'Gs').
 *  .             /total_acc_z_train.txt:  " "
-*  .**(x)** files required to produce output dataset
-
 
 Output File:
 ===========
 The output file is a tidy data set with the following structure:
 (full description in CodeBook.md)
-X_1.csv	               :array for subject 1 w/ 80 features found
-                        in primary data set features that are
-                        46 mean value types variables,
-                        33 standard deviation types variables
-                        AND 1 activity label.
+* average_X.txt	       :array for subject 1 w/ 80 features found in primary data set features that are  46 mean value types variables, 33 standard deviation types variables and 1 activity label.
  
 Other Document Files:
 ===========
