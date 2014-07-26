@@ -47,41 +47,41 @@ Input Dataset Files:
 =================
 The input dataset includes the following files:
 
-*   ./UCI HAR Dataset/
-*  +   /activity_labels.txt          :Links the class labels with their activity name.
-*  +   /features.txt                 :List of all features.
-*       /features_info.txt            :Shows information about the variables used on the feature vector.
-*       /README.txt                   :Roadmap to the primary dataset.
-*       /test/                        :Test observation set partition
-*  +       /subject_test.txt         :7352 subject# for each observ window.
-*  +       /X_test.txt               :7352 array w/ 561 features calculated
-*                                      for each observation window readings.
-*  +       /y_test.txt               :7352 activity# for each obs window.
-*           /Inertial Signals/        :7352 observ windows, each 128 readings.
-*               /body_acc_x_test.txt  :Triaxial accelerat from accelerometer
-*               /body_acc_y_test.txt  :(estimated body acceleration in 'Gs').
-*               /body_acc_z_test.txt  :  " "
-*               /body_gyro_x_test.txt :Triaxial Angular velocity from the
-*               /body_gyro_y_test.txt :gyroscope (in 'radians/second').
-*               /body_gyro_z_test.txt :  " "
-*               /total_acc_x_test.txt :Triaxial accelerat from accelerometer
-*               /total_acc_y_test.txt :(total acceleration 'Gs').
-*               /total_acc_z_test.txt :  " "
-*       /train/                       :Training observation set partition
-*  +       /subject_train.txt        :2947 subject# for each observ window.
-*  +       /X_train.txt              :2947 array w/ 561 features calculated
-*                                     for each observation window readings.
-*  +       /y_train.txt              :2947 activity# for each obs window.
-*           /Inertial Signals/        :2947 observ windows, each 128 readings.
-*               /body_acc_x_train.txt :Triaxial accelerat from accelerometer
-*               /body_acc_y_train.txt :(estimated body acceleration in 'Gs').
-*               /body_acc_z_train.txt :  " "
-*               /body_gyro_x_train.txt:Triaxial Angular velocity from the
-*               /body_gyro_y_train.txt:gyroscope (in 'radians/second').
-*               /body_gyro_z_train.txt:  " "
-*               /total_acc_x_train.txt:Triaxial accelerat from accelerometer
-*               /total_acc_y_train.txt:(total acceleration 'Gs').
-*               /total_acc_z_train.txt:  " "
+       ./UCI HAR Dataset/
+      +   /activity_labels.txt          :Links the class labels with their activity name.
+      +   /features.txt                 :List of all features.
+           /features_info.txt            :Shows information about the variables used on the feature vector.
+           /README.txt                   :Roadmap to the primary dataset.
+           /test/                        :Test observation set partition
+      +       /subject_test.txt         :7352 subject# for each observ window.
+      +       /X_test.txt               :7352 array w/ 561 features calculated
+                                          for each observation window readings.
+      +       /y_test.txt               :7352 activity# for each obs window.
+               /Inertial Signals/        :7352 observ windows, each 128 readings.
+                   /body_acc_x_test.txt  :Triaxial accelerat from accelerometer
+                   /body_acc_y_test.txt  :(estimated body acceleration in 'Gs').
+                   /body_acc_z_test.txt  :  " "
+                   /body_gyro_x_test.txt :Triaxial Angular velocity from the
+                   /body_gyro_y_test.txt :gyroscope (in 'radians/second').
+                   /body_gyro_z_test.txt :  " "
+                   /total_acc_x_test.txt :Triaxial accelerat from accelerometer
+                   /total_acc_y_test.txt :(total acceleration 'Gs').
+                   /total_acc_z_test.txt :  " "
+           /train/                       :Training observation set partition
+      +       /subject_train.txt        :2947 subject# for each observ window.
+      +       /X_train.txt              :2947 array w/ 561 features calculated
+                                         for each observation window readings.
+      +       /y_train.txt              :2947 activity# for each obs window.
+               /Inertial Signals/        :2947 observ windows, each 128 readings.
+                   /body_acc_x_train.txt :Triaxial accelerat from accelerometer
+                   /body_acc_y_train.txt :(estimated body acceleration in 'Gs').
+                   /body_acc_z_train.txt :  " "
+                   /body_gyro_x_train.txt:Triaxial Angular velocity from the
+                   /body_gyro_y_train.txt:gyroscope (in 'radians/second').
+                   /body_gyro_z_train.txt:  " "
+                   /total_acc_x_train.txt:Triaxial accelerat from accelerometer
+                   /total_acc_y_train.txt:(total acceleration 'Gs').
+                   /total_acc_z_train.txt:  " "
 
   (+) files required to produce output dataset
 
