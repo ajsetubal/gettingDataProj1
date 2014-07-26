@@ -29,8 +29,9 @@ Input Dataset:
 The input dataset includes the following files:
 (original zip file rows cardinality, in comments below, intended to clarify files relationships)
 
-**./UCI HAR Dataset/**
 **(x)** files required to produce output dataset
+
+* ./UCI HAR Dataset/
 *  .**x**   /activity_labels.txt          :List of 6 activity# and labels.
 *  .**x**   /features.txt                 :List of 561 feature(col#) and labels.
 *  .     /features_info.txt            :Information about the calculations.
