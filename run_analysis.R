@@ -19,7 +19,7 @@
 ##   current directory and return it.
 
 run_analysis <-
-      function(inDir="./getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset"){
+      function(inDir="./UCI HAR Dataset"){
        ## Parameter:
        ##  inDir: is a character vector of length 1 containing the  root directory
        ##         structured as published in UCI HAR Dataset. The defaults is the 
